@@ -76,13 +76,19 @@ with your character class. You can also use more than one range in the same squa
 Examples in this string
 - a-z0-9 matches lowercase letters a-z and numbers 0-9
 
-### Flags
-
 ### Grouping and Capturing
 
 
 ### Bracket Expressions
+Brackets indicate a set of charachters to match. This can consist of an individual character or a set of characters with the use of a hyphen.
+The use of metacharacters can negate what is between brackets.
 
+Examples
+-'dog'.match(/[abcd/]) -> matches 'd', 'donkey'.match(/[^abcd]/) -> matches 'o'
+The outcome of each bracket expression depends on the brackets/ braces use- {}, [], ()
+Examples in this string
+-[a-z0-9_.-]
+-[\da-z.-]
 ### Greedy and Lazy Match
 
 ### Boundaries
