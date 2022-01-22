@@ -35,6 +35,8 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 ## Technologies and language
 
+- Markdown
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -52,18 +54,32 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 ## Regex Components
 
 ### Anchors
-- Anchors do not match any character rather the match positions bfore the begining, at the end or between characters. In 
+- Anchors do not match any character rather they match positions bfore the begining, at the end or between characters. In 
 the above string, the anchors, (^) and ($), are in the begining and end positions.
 
 ### Quantifiers
+- Quantifiers match a number of instances of a character, goup or character class in a string.
+- examples include - Exact Count {n}, The range {n, m}, and shorthand +, ?, *. 
+- For the above string, the expression [a-z.]{2,6} matches between 2 to 6 copies of the sequence found inside of the square brackets.
 
 ### OR Operator
+- The OR operator is represented by "|" and can be used to specify a case (upper or lower) i.e. B\b. 
+- In the above string, there is no call for the or operators use.
 
 ### Character Classes
+Character classes are also referred to as character sets. The regex engine will only match one of several characters, just 
+place the characters you want to match inside of square brackets []. By using a hyphan, you can specifiy a range you want to search 
+with your character class. You can also use more than one range in the same square brackets.
+
+- Expamles - to search for an a or e [ae], range [0-5] multiple range [0-5 t-z T-Z]
+
+Examples in this string
+- a-z0-9 matches lowercase letters a-z and numbers 0-9
 
 ### Flags
 
 ### Grouping and Capturing
+
 
 ### Bracket Expressions
 
@@ -77,9 +93,11 @@ the above string, the anchors, (^) and ($), are in the begining and end position
 
 ## Credits and additional research
 
+- Starter code providded 
 - MDN- 
 - DOCS.Microsoft
 - https://www.regular-expressions.info/
+- https://www.javascripttutorial.net/
 
 
 ## Author
