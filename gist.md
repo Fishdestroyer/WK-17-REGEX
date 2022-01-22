@@ -1,10 +1,11 @@
 # WEEK 17 REGEX
 
-Introductory paragraph (replace this with your text)
+In our week 17 assignment, we are tasked with breaking down a REGEX (Regular Expression) and describing each section of the expression.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I have chosen to use one of the supplied expressions from our module content, matching an emai. The supplied expression 
+is as follow - /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Acceptance criteria
 
