@@ -1,10 +1,12 @@
 # WEEK 17 REGEX
 
+## Description
+
 In our week 17 assignment, we are tasked with breaking down a REGEX (Regular Expression) and describing each section of the expression.
 
 ## Summary
 
-I have chosen to use one of the supplied expressions from our module content, matching an emai.
+I have chosen to use one of the supplied expressions from our module content, matching an email.
  The supplied expression is as follows-
  
   /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
@@ -71,4 +73,6 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Authored by Jeff Whitner, please see aforementioned section "Credits" for additional assistance information.
+
+https://github.com/Fishdestroyer
