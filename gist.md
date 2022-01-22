@@ -4,8 +4,10 @@ In our week 17 assignment, we are tasked with breaking down a REGEX (Regular Exp
 
 ## Summary
 
-I have chosen to use one of the supplied expressions from our module content, matching an emai. The supplied expression 
-is as follow - /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+I have chosen to use one of the supplied expressions from our module content, matching an emai.
+ The supplied expression is as follows-
+ 
+  /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Acceptance criteria
 
