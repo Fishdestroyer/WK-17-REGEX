@@ -33,6 +33,8 @@ WHEN I reach the end of the tutorial
 
 THEN I find a section about the author and a link to the author’s GitHub profile
 
+## Technologies and language
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -50,6 +52,8 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 ## Regex Components
 
 ### Anchors
+- Anchors do not match any character rather the match positions bfore the begining, at the end or between characters. In 
+the above string, the anchors, (^) and ($), are in the begining and end positions.
 
 ### Quantifiers
 
@@ -71,8 +75,15 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 ### Look-ahead and Look-behind
 
+## Credits and additional research
+
+- MDN- 
+- DOCS.Microsoft
+- https://www.regular-expressions.info/
+
+
 ## Author
 
-Authored by Jeff Whitner, please see aforementioned section "Credits" for additional assistance information.
+Authored by Jeff Whitner, please see previous section "Credits" for additional assistance information.
 
 https://github.com/Fishdestroyer
