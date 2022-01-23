@@ -10,6 +10,26 @@ I have chosen to use one of the supplied expressions from our module content, ma
  The supplied expression is as follows-
  
   /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+  
+    Given the above expression, when matched to the following
+
+  -email21@email.com
+
+  ^- begining of the string
+  
+  ([a-z0-9_\.-]+)- Capturing group 1 with quantifier "+" for 1 or more of the preceding token.- Is looking for the a-z and 0-9 range, case sensitive "email21"
+
+  @ Matches a "@" character - "@"
+
+  ([\da-z\.-]+)\. - Capturing group 2 with quantifier "+" for 1 or more of the preceding token. Is looking for digit match and a-z range, case sensitive "email"
+  
+  \. Matches a "." character - "."
+
+ ([a-z\.]{2,6}) - Capturing group 3 with quantifier {2,6} to match between 2 and 6 of the preceding token "com"
+ 
+ Quantifier examples include  .co, .com, .gov, .org up to 6 characters.
+
+ $- closing of string
 
 ## Acceptance criteria
 
@@ -72,6 +92,20 @@ Examples in this string
 
 ### Grouping and Capturing
 
+Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
+
+Example
+/(ha)+/
+hahaha haa hah!
+
+ALL ha would match, leaving singular characters "a" and "h" unmatched as they are not of a pair. hahaha would match because of the "+"
+quantifier.
+
+Examples in this string
+- [a-z0-9_.-]+)
+- ([\da-z.-]+)
+- ([a-z.]{2,6})
+
 
 ### Bracket Expressions
 Brackets indicate a set of charachters to match. This can consist of an individual character or a set of characters with the use of a hyphen.
@@ -79,7 +113,9 @@ The use of metacharacters can negate what is between brackets.
 
 Examples
 -'dog'.match(/[abcd/]) -> matches 'd', 'donkey'.match(/[^abcd]/) -> matches 'o'
+
 The outcome of each bracket expression depends on the brackets/ braces used- {}, [], ()
+
 Examples in this string
 -[a-z0-9_.-]
 -[\da-z.-]
@@ -92,8 +128,6 @@ Examples in this string
 - DOCS.Microsoft
 - https://www.regular-expressions.info/
 - https://www.javascripttutorial.net/
-
-
 ## Author
 
 Authored by Jeff Whitner, please see previous section "Credits" for additional resources used.
