@@ -85,11 +85,13 @@ The use of metacharacters can negate what is between brackets.
 
 Examples
 -'dog'.match(/[abcd/]) -> matches 'd', 'donkey'.match(/[^abcd]/) -> matches 'o'
-The outcome of each bracket expression depends on the brackets/ braces use- {}, [], ()
+The outcome of each bracket expression depends on the brackets/ braces used- {}, [], ()
 Examples in this string
 -[a-z0-9_.-]
 -[\da-z.-]
 ### Greedy and Lazy Match
+A Greedy match equates to as many as possible, where lazy is quite the opposite and looks for as little as possible when matching strings and tokens.
+This does not apply to the above string. 
 
 ### Boundaries
 
