@@ -44,7 +44,6 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
@@ -53,7 +52,7 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 ## Regex Components
 
 ### Anchors
-- Anchors do not match any character rather they match positions bfore the begining, at the end or between characters. In 
+- Anchors do not match any character rather they match positions before the begining, at the end or between characters. In 
 the above string, the anchors, (^) and ($), are in the begining and end positions.
 
 ### Quantifiers
@@ -87,7 +86,8 @@ Examples in this string
 
 ## Credits and additional research
 
-- Starter code providded 
+- Starter code provided 
+- Shawn Littrell, TA
 - MDN- 
 - DOCS.Microsoft
 - https://www.regular-expressions.info/
@@ -96,6 +96,6 @@ Examples in this string
 
 ## Author
 
-Authored by Jeff Whitner, please see previous section "Credits" for additional assistance information.
+Authored by Jeff Whitner, please see previous section "Credits" for additional resources used.
 
 https://github.com/Fishdestroyer
