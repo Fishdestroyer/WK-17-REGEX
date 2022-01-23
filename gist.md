@@ -37,34 +37,28 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 - Markdown
 
+## GitHub Gist
+
+
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
 ### Anchors
-- Anchors do not match any character rather they match positions bfore the begining, at the end or between characters. In 
+- Anchors do not match any character rather they match positions before the begining, at the end or between characters. In 
 the above string, the anchors, (^) and ($), are in the begining and end positions.
 
 ### Quantifiers
 - Quantifiers match a number of instances of a character, goup or character class in a string.
 - examples include - Exact Count {n}, The range {n, m}, and shorthand +, ?, *. 
 - For the above string, the expression [a-z.]{2,6} matches between 2 to 6 copies of the sequence found inside of the square brackets.
-
-### OR Operator
-- The OR operator is represented by "|" and can be used to specify a case (upper or lower) i.e. B\b. 
-- In the above string, there is no call for the or operators use.
 
 ### Character Classes
 Character classes are also referred to as character sets. The regex engine will only match one of several characters, just 
@@ -89,19 +83,11 @@ The outcome of each bracket expression depends on the brackets/ braces used- {},
 Examples in this string
 -[a-z0-9_.-]
 -[\da-z.-]
-### Greedy and Lazy Match
-A Greedy match equates to as many as possible, where lazy is quite the opposite and looks for as little as possible when matching strings and tokens.
-This does not apply to the above string. 
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Credits and additional research
 
-- Starter code providded 
+- Starter code provided 
+- Shawn Littrell, TA
 - MDN- 
 - DOCS.Microsoft
 - https://www.regular-expressions.info/
@@ -110,6 +96,6 @@ This does not apply to the above string.
 
 ## Author
 
-Authored by Jeff Whitner, please see previous section "Credits" for additional assistance information.
+Authored by Jeff Whitner, please see previous section "Credits" for additional resources used.
 
 https://github.com/Fishdestroyer
